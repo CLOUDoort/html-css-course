@@ -1,0 +1,56 @@
+<style>
+    button {
+        height: 36px;
+        cursor: pointer;
+    }
+    .uber {
+        background-color: black;
+        color: white;
+        width: 110px;
+        border: none;
+        transition: opacity 0.3s;
+    }
+    .uber:hover {
+        opacity: 0.7;
+    }
+    .uber:active {
+        opacity: 0.3;
+    }
+    .amazon {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        width: 170px;
+        border-radius: 20px;
+        font-size: 15px;
+    }
+    .github {
+        background-color: rgb(46, 164, 79);
+        border: none;
+        color: white;
+        border-radius: 8px;
+        width: 80px;
+        font-weight: bold;
+    }
+    .boot {
+        background-color: white;
+        color: gray;
+        border: 1px solid gray;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background-color 0.3, color 0.3, opacity 0.3;
+    }
+    .boot:hover {
+        background-color: gray;
+        color: white;
+        opacity: 0.8;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+    .boot:active {
+        opacity: 0.4;
+    }
+</style>
+
+<button class="uber">Request now</button>
+<button class="amazon">Add to Cart</button>
+<button class="github">Sign up</button>
+<button class="boot">Download</button>
