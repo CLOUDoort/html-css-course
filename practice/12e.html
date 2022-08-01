@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            div {
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .flex {
+                display: flex;
+                flex-direction: column;
+                border: 1px solid gray;
+                max-width: 500px;
+                border-radius: 10px;
+            }
+            .flex > div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 10px 16px;
+                align-items: center;
+            }
+            button {
+                background-color: rgb(0, 166, 255);
+                border: none;
+                border-radius: 15px;
+                color: white;
+                font-size: 20px;
+                padding: 8px 16px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex">
+            <div class="first">
+                <div>Home</div>
+                <button>14</button>
+            </div>
+            <div class="second">
+                <div>Notifications</div>
+                <button>3</button>
+            </div>
+            <div class="third">
+                <div>Messages</div>
+                <button>5</button>
+            </div>
+        </div>
+    </body>
+</html>
