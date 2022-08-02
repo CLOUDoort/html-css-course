@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <style>
+            body {
+                height: 3000px;
+            }
+            .container {
+                position: relative;
+                display: inline-block;
+            }
+            .shirts {
+                width: 300px;
+                height: 300px;
+                object-fit: cover;
+            }
+            .sale {
+                background-color: black;
+                color: white;
+                font-size: 18px;
+                font-family: Arial;
+                position: absolute;
+                top: 10px;
+                right: 0;
+                padding: 8px 12px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img class="shirts" src="../thumbnails/shirts.jpeg" alt="" />
+            <div class="sale">20% OFF</div>
+        </div>
+    </body>
+</html>

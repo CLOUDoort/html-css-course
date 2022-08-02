@@ -21,6 +21,7 @@
 }
 .thumbnail-row {
     margin-bottom: 12px;
+    position: relative;
 }
 .video-author,
 .video-stats {
@@ -34,4 +35,17 @@
 .profile-picture {
     width: 36px;
     border-radius: 50%;
+}
+
+.video-time {
+    background-color: black;
+    color: white;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    padding: 4px;
+    border-radius: 2px;
 }
