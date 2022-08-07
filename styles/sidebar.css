@@ -3,7 +3,30 @@
     top: 60px;
     bottom: 0;
     left: 0;
-    border-right: 1px solid rgb(236, 236, 236);
     background-color: white;
-    width: 72px;
+    width: 75px;
+    z-index: 200;
+    padding-top: 2px;
+}
+
+.sidebar-link {
+    height: 74px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-link img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 4px;
+}
+.sidebar-link div {
+    font-size: 10px;
+}
+
+.sidebar-link:hover {
+    background-color: rgb(235, 232, 232);
+    cursor: pointer;
 }
